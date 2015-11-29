@@ -3,7 +3,7 @@
 
 -- make sure to set with value that not higher than stats.lua
 local NUM_MSG_MAX = 4
-local TIME_CHECK = 4 -- seconds
+local TIME_CHECK = 6 -- seconds
 
 local function create_group(msg)
   -- superuser and admins only (because sudo are always has privilege)
